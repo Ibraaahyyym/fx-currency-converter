@@ -8,7 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1440px;
+    /*width: 1440px*/
+    width: 100vw;
+    height: 66px;
     padding: 16px 40px;
     gap: 128px;
     background-color: black;
@@ -26,3 +28,48 @@
     opacity: 100%;
      color: #FFFFFF;
 }
+
+#live-markets-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    background-color: #202022;
+
+}
+
+#live-market-header-left{
+    background-color: #cef739;
+    padding-top: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-left: 1.5rem;
+    padding-right: 0.4rem;
+    margin: 0;
+    color: black;
+}
+
+#live-market-data-right{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    background-color: #202022;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+#live-market-data-right li{
+    display: inline;
+    margin: 0;
+}
+
+
+#live-market-data{
+    color:#FFFFFF;
+}
+
+
