@@ -4,6 +4,11 @@
     box-sizing: border-box; 
 }
 
+body{
+    color: white;
+    background: black;
+}
+
 #header{
     display: flex;
     align-items: center;
@@ -14,7 +19,7 @@
     padding: 16px 40px;
     gap: 128px;
     background-color: black;
-   
+    margin-bottom: 5px;
 }
 
 
@@ -26,19 +31,56 @@
     height: 38px;
     margin: 0 80px;
     opacity: 100%;
-     color: #FFFFFF;
+    color: #FFFFFF;
 }
 
-#live-markets-container{
+#live-market-container{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    position: sticky;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0em;
     background-color: #202022;
 
 }
+
+#list-container-right{
+    display: flex;
+    background-color: black;
+
+}
+
+#list-container-right li{
+    display: inline;
+    margin-right: 0;
+    background-color: black;
+    animation: scroll 20s linear infinite;
+    padding: 10px 15px;
+}
+
+
+#live-market-left{
+    padding: 10px 30px;
+    display: inline;
+    position: absolute;
+    background-color: #cef739;
+    z-index: 9999;
+    margin-left: 0;
+    color: black;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/*
 
 #live-market-header-left{
     background-color: #cef739;
@@ -64,12 +106,30 @@
 
 #live-market-data-right li{
     display: inline;
-    margin: 0;
+    margin-right: 0;
+    padding:10px 15px;
+
 }
 
 
 #live-market-data{
     color:#FFFFFF;
+    display: inline;
+    overflow: scroll;
+
 }
+
+#live-market-data li{
+    color:#FFFFFF;
+    display: inline;
+    padding: 10px 15px;
+
+    
+
+}
+
+
+
+*/
 
 
