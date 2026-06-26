@@ -48,15 +48,16 @@ body{
 #list-container-right{
     display: flex;
     background-color: black;
-
+    animation: scroll 1000s linear infinite;
 }
 
 #list-container-right li{
     display: inline;
     margin-right: 0;
     background-color: black;
-    animation: scroll 20s linear infinite;
+    
     padding: 10px 15px;
+    border-right: 1px solid grey;    
 }
 
 
