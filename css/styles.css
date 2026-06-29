@@ -13,11 +13,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1440px;
+    max-width: 1440px;
     height: 66px;
-    padding: 16px 40px;
-    gap: 128px;
-    background-color: black;
+    padding: 20px 24px;
+    
+    background-color: blue;
     margin-bottom: 5px;
 }
 
@@ -26,12 +26,23 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 105px;
-    height: 18px;
+    width: 139px;
+    height: 26px;
+    gap:;
     margin: 0 80px;
     opacity: 100%;
     color: #FFFFFF;
+    background-color: red;
 }
+
+
+#header-right{
+    width: 281px;
+    height: 17px;
+    background-color: lightgreen;
+
+}
+
 
 #live-market-container{
     display: flex;
