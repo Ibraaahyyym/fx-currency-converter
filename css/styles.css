@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url(/assets/fonts/jetbrains-mono/jetbrains-mono-variable.ttf) format('truetype');
+    font-weight: 100 800;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,77 +16,121 @@ body{
     background: black;
 }
 
+main{
+    width:1440px;
+    height: 1037px;
+}
+
 #header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1440px;
+    width: 1440px;
     height: 66px;
-    padding: 20px 24px;
-    
-    background-color: blue;
-    margin-bottom: 5px;
+    padding: 20px 24PX;
 }
 
 
 #logo{
     display: flex;
     justify-content: space-between;
+    /*background-color: red;*/
     align-items: center;
     width: 139px;
     height: 26px;
-    gap:;
-    margin: 0 80px;
     opacity: 100%;
     color: #FFFFFF;
-    background-color: red;
+    z-index: 9999;
 }
+
 
 
 #header-right{
     width: 281px;
     height: 17px;
-    background-color: lightgreen;
+    font-family: 'JetBrains Mono';
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 120%;
+letter-spacing: 1px;
 
 }
 
+#header-right span{
+ font-family: JetBrains Mono;
+ font-weight: 400;
+ font-style: Regular;
+ font-size: 11px;
+ /*leading-trim: NONE;*/
+ line-height: 120%;
+ letter-spacing: 1px; 
+}
 
-#live-market-container{
+
+#live-markets{
     display: flex;
     align-items: center;
-    position: sticky;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    background-color: #202022;
+    width: 1456px;
+    height: 40px;
+    gap: 10px;
+    /*opacity: 1;*/
+    background: var(--colors-neutral-700, #171719);
+}
 
+
+#live-market-left{
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  width: 138px;
+  height: 40px;
+  gap: 8px;
+  opacity: 1;
+  border-right: 1px;
+  padding: 12px 16px;
+  background-color: #cef739;
+  color: black;
+  z-index: 9999;
+   
+}
+
+
+#live-market-left #circle{
+    width: 6px;
+    height: 6px;
+    background-color:#0A0A0A;
+    border-radius: 999px;
+    /*border: 1px solid red;*/
+}
+
+
+#live-market-left #text{
+   width: 92px;
+   height: 16px;
+   font-family: 'JetBrains Mono';
+   font-weight: 500;
+   font-style: Medium;
+   font-size: 11px;
+   
+   /*leading-trim: NONE;*/
+   line-height: 130%;
+   letter-spacing: 0.5px;
 }
 
 #list-container-right{
     display: flex;
-    background-color: black;
     animation: scroll 1000s linear infinite;
 }
 
 #list-container-right li{
     display: inline;
-    margin-right: 0;
-    background-color: black;
-    
     padding: 10px 15px;
     border-right: 1px solid grey;    
 }
 
 
-#live-market-left{
-    padding: 10px 30px;
-    display: inline;
-    position: absolute;
-    background-color: #cef739;
-    z-index: 9999;
-    margin-left: 0;
-    color: black;
-}
+
 
 @keyframes scroll {
     0% {
