@@ -1,4 +1,3 @@
-
 const containerList = document.getElementById("list-container-right");
 
 // fetch live msrwket data from Frankfurter API and append it to the DOM

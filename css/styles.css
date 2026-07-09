@@ -134,7 +134,7 @@ letter-spacing: 1px;
 
 @keyframes scroll {
     0% {
-        transform: translateX(100%);
+        transform: translateX(100wv);
     }
     100% {
         transform: translateX(-100%);
