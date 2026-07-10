@@ -71,6 +71,7 @@ letter-spacing: 1px;
 #live-markets{
     display: flex;
     align-items: center;
+    overflow: hidden;
     width: 1456px;
     height: 40px;
     gap: 10px;
@@ -118,7 +119,7 @@ letter-spacing: 1px;
    letter-spacing: 0.5px;
 }
 
-#list-container-right{
+#list-container-right{ 
     display: flex;
     animation: scroll 1000s linear infinite;
 }
