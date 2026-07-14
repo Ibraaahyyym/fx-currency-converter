@@ -22,7 +22,7 @@ fetch("https://api.frankfurter.dev/v2/rates?base=USD")
           ${data[i].rate}
         </div>
         <div style="width: 62px; height: 14px; font-size: 12px; color: #42EB05; line-height: 120%; letter-spacing: 0.5px; font-family: JetBrains Mono; font-style: regular; font-weight: 400;">
-          ▲ +0.04%
+          ▲+0.04%
         </div>
         `;
 
