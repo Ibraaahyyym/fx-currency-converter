@@ -72,7 +72,7 @@ letter-spacing: 1px;
     display: flex;
     align-items: center;
     overflow: hidden;
-    width: 1456px;
+    width: 1440px;
     height: 40px;
     gap: 10px;
     /*opacity: 1;*/
@@ -122,12 +122,17 @@ letter-spacing: 1px;
 #list-container-right{ 
     display: flex;
     animation: scroll 1000s linear infinite;
+    height: 40px;
+    
 }
 
 #list-container-right li{
-    display: inline;
-    padding: 10px 15px;
-    border-right: 1px solid grey;    
+    display: flex;
+    width: 208px;
+    height: 40px;
+    list-style: none;
+    border-right: 1px solid grey;
+    padding: 12px 20px;
 }
 
 
