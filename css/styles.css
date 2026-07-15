@@ -156,7 +156,7 @@ letter-spacing: 1px;
     width: 1100px;
     height: 931px;
     background: var(--colors-neutral-900, #0A0A0A);
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     margin: 0 auto;
     padding: 49px 32px;
     gap: 32px;
@@ -192,7 +192,7 @@ letter-spacing: 1px;
     border-radius: 20px;
     /*border: 1px;*/
     color: #171719;
-    background-color: #ccc;
+    /*background-color: #ccc;*/
 
 }
 
@@ -204,7 +204,7 @@ letter-spacing: 1px;
   width: 1036px;
   height: 158px;
   padding: 20px;
-  background-color: #202022;  
+  background-color: #171719;  
 }
 
 
@@ -216,7 +216,7 @@ letter-spacing: 1px;
     gap: 20px;
     padding: 20px;
     color: #202022;
-    background-color: #454547;
+    background-color: #202022;
     border: 1px solid #0A0A0A;
 }
 
@@ -225,7 +225,7 @@ letter-spacing: 1px;
     height: 46px;
     border-radius: 8px;
     border: 1px solid #0A0A0A;
-    background-color: #454547;
+    background-color: #202022;;
 }
 
 
@@ -235,8 +235,11 @@ letter-spacing: 1px;
     justify-content: space-between;
     padding: 16px 20px;
     opacity: 1;
-    border: 1px solid var(--colors-neutral-500, #2E2E2E);
-    border-style: dashed;
+    border-top: 1px dashed #ccc;
+    background-color: #2E2E2E;
+    /*border-style: dashed;*/
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     color: #2E2E2E; 
 
 }
