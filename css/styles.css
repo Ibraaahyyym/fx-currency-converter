@@ -148,6 +148,111 @@ letter-spacing: 1px;
 }
 
 
+/* EXCHANGE CURRENCY DIV START */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 931px;
+    background: var(--colors-neutral-900, #0A0A0A);
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 49px 32px;
+    gap: 32px;
+}
+
+.converter-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 1036px;
+    height: 263px;
+    gap: 16px;
+    /*border-radius: 8px;*/
+    /*border: 1px solid #ccc;*/
+
+}
+
+#section-title{
+    width: 162px;
+    height: 24px;
+    font-family: 'JetBrains Mono';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    line-height: 120%;
+    vertical-align: middle;
+    color: #FFFFFF  ;
+}
+
+.converter{
+    width: 1036px;
+    height: 223px;
+    border-radius: 20px;
+    /*border: 1px;*/
+    color: #171719;
+    background-color: #ccc;
+
+}
+
+
+#top-container{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  width: 1036px;
+  height: 158px;
+  padding: 20px;
+  background-color: #202022;  
+}
+
+
+#top-container .container{
+    width: 450px;
+    height: 118px;
+    border-radius: 16px;
+    /*border: 1px;*/
+    gap: 20px;
+    padding: 20px;
+    color: #202022;
+    background-color: #454547;
+    border: 1px solid #0A0A0A;
+}
+
+#top-container .exchange-button{
+    width: 48px;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px solid #0A0A0A;
+    background-color: #454547;
+}
+
+
+#bottom-container{
+    width: 1036px;
+    height: 65px;
+    justify-content: space-between;
+    padding: 16px 20px;
+    opacity: 1;
+    border: 1px solid var(--colors-neutral-500, #2E2E2E);
+    border-style: dashed;
+    color: #2E2E2E; 
+
+}
+
+
+
+
+
+
+
+
+/* EXCHANGE CURRENCY DIV END */
+
+
+
+
 /*
 
 #live-market-header-left{
