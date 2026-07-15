@@ -258,7 +258,7 @@ letter-spacing: 1px;
     width: 139px;
     height: 14px;
     opacity: 1;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     color: #FFFFFF;
     font-family: JetBrains Mono;
     font-weight: 400;
