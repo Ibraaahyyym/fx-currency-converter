@@ -276,22 +276,73 @@ letter-spacing: 1px;
     align-items: center;
     width: 261px;
     height: 32px; 
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
 }
 
 
 .favorite-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 117px;
     height: 32px;
     border-radius: 8px;
     border: 1px;
     padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color:#CEF739;
+}
+
+#star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;    
+}
+
+#star img{
+    width: 12.53px;
+    height: 12px;    
+    filter: brightness(0);
+}
+
+.favorite-button #logo-conversion-text{
+    display: flex;
+    justify-content: center;
+    width: 69px;
+    height: 16px;
+    font-family: JetBrains Mono;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    /*line-height: 130%;*/
+    letter-spacing: 0.5px;
+    color: #0A0A0A;
+}
+
+.log-conversion-button{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    width: 132px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
 
-
-
-
+.log-conversion-button #log-conversion-text{
+    width: 108px;
+    height: 16px;
+    color: #FFFFFF;
+    font-family: JetBrains Mono;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.5px;
+}
 
 
 /* EXCHANGE CURRENCY DIV END */
