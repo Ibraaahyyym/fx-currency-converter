@@ -291,6 +291,7 @@ letter-spacing: 1px;
     padding: 8px 12px;
     border: 1px solid #ccc;
     background-color:#CEF739;
+    cursor: pointer;
 }
 
 #star{
@@ -329,6 +330,7 @@ letter-spacing: 1px;
     height: 32px;
     border-radius: 8px;
     border: 1px solid #CEF739;
+    cursor: pointer;
 }
 
 
@@ -343,6 +345,76 @@ letter-spacing: 1px;
     line-height: 130%;
     letter-spacing: 0.5px;
 }
+
+
+#details-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    height: 540px;
+}
+
+#desktop-tabs{
+    display: flex;
+    /*border: 1px solid #ccc;*/
+   
+}
+
+#desktop-tabs .tab-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 42px;
+    color: #FFFFFF;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.5px;
+}
+
+#desktop-tabs #history-button, #desktop-tabs #compare-button{
+    padding: auto 16px;
+    gap: 8px;
+}
+
+
+#desktop-tabs #favorite-button{
+    gap: 8px;
+    width: 155px;
+    height: 40px;
+    padding: auto 16px;
+}
+
+
+#desktop-tabs #log-button{
+    gap: 8px;
+    width: 91px;
+    height: 40px;
+    padding: auto 16px;
+}
+
+
+
+#desktop-tabs .tab-button:hover{
+    border-bottom: 2px solid #CEF739;
+    cursor: pointer;
+}
+
+
+.tab-button .notification-badge{
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background-color: white;
+    color: black;
+}
+
+
+
 
 
 /* EXCHANGE CURRENCY DIV END */
