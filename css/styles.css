@@ -49,11 +49,11 @@ main{
     width: 281px;
     height: 17px;
     font-family: 'JetBrains Mono';
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-line-height: 120%;
-letter-spacing: 1px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 1px;
 
 }
 
@@ -351,66 +351,35 @@ letter-spacing: 1px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-   
     height: 540px;
+    /* background-color: #171719; */
 }
 
 #desktop-tabs{
     display: flex;
-    /*border: 1px solid #ccc;*/
+    width: 1036px;
+    height: 42px;
+    border-bottom: 1px solid #202022;
+    background-color: #202022;
    
 }
 
-#desktop-tabs .tab-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 106px;
-    height: 42px;
-    color: #FFFFFF;
-    font-family: JetBrains Mono;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 12px;
-    line-height: 130%;
-    letter-spacing: 0.5px;
+#stats-container{
+    width: 1036px;
+    height: 81px;
+    gap: 10px;
+    background-color: #202022;
 }
 
-#desktop-tabs #history-button, #desktop-tabs #compare-button{
-    padding: auto 16px;
-    gap: 8px;
-}
+#chart{
+ gap: 20px;   
+ width: 1036px;
+ height: 377px;
+ border-radius: 16px;
+ border: 1px solid #202022;
+ background-color: #202022; /* this is just for testing  /  visibility*/
+ color: #171719;
 
-
-#desktop-tabs #favorite-button{
-    gap: 8px;
-    width: 155px;
-    height: 40px;
-    padding: auto 16px;
-}
-
-
-#desktop-tabs #log-button{
-    gap: 8px;
-    width: 91px;
-    height: 40px;
-    padding: auto 16px;
-}
-
-
-
-#desktop-tabs .tab-button:hover{
-    border-bottom: 2px solid #CEF739;
-    cursor: pointer;
-}
-
-
-.tab-button .notification-badge{
-    width: 20px;
-    height: 20px;
-    border-radius: 999px;
-    background-color: white;
-    color: black;
 }
 
 
