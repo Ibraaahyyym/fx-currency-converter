@@ -359,10 +359,160 @@ main{
     display: flex;
     width: 1036px;
     height: 42px;
-    border-bottom: 1px solid #202022;
+    gap: 8px;
+    border-bottom: 1px solid white; /* #202022 */
     background-color: #202022;
-   
 }
+
+.tab-button{
+    cursor: pointer;
+}
+
+#history-tab-button{
+    width: 106px;
+    height: 42px;
+}
+
+
+.button-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tab-label{
+    width: 74px;
+    height: 19px;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#tab-label-favorite{
+    width: 95px;
+    height: 19px;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+#tab-label-log{
+    width: 31px;
+    height: 19px;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+
+.notification-badge{
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background-color: #283300;
+}
+
+
+.active-underline{
+    width: 106px;
+    height: 1px;
+    border-bottom: none;
+    transition: bottom-border 0 ease;
+}
+
+
+.tab-button:hover .active-underline{
+    border-bottom: 2px solid #CEF739;
+}
+
+
+.active-underline-favorite{
+    width: 155px;
+    height: 1px;
+    border-bottom: none;
+    transition: bottom-border 0 ease;
+}
+
+.tab-button:hover .active-underline-favorite{
+    border-bottom: 2px solid #CEF739;
+}
+
+.active-underline-log{
+    width: 91px;
+    height: 2px;
+    border-bottom: none;
+    transition: bottom-border 0 ease;
+}
+
+.tab-button:hover .active-underline-log{
+    border-bottom: 2px solid #CEF739;    
+}
+
+
+
+
+
+#history-tab-button .button-content{
+    width: 106px;
+    height: 40px;
+    padding: auto 16px;
+    gap: 8px
+}
+
+
+#compare-tab-button{
+    width: 106px;
+    height: 42px;
+}
+
+#compare-tab-button .button-content{
+    width: 106px;
+    height: 40px;
+    padding: auto 16px;
+    gap: 8px;
+}
+
+#favorites-tab-button{
+    width: 155px;
+    height: 42px;
+}
+
+#favorites-tab-button .button-content{
+    width: 155px;
+    height: 40px;
+    padding: auto 16px;
+    gap: 8px;
+}
+
+#log-tab-button{
+    width: 91px;
+    height: 42px;
+}
+
+#log-tab-button .button-content{
+    width: 91px;
+    height: 40px;
+    padding: auto 16px;
+    gap: 8px;
+}
+
+
 
 #stats-container{
     width: 1036px;
