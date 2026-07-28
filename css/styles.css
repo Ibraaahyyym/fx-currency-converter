@@ -360,8 +360,8 @@ main{
     width: 1036px;
     height: 42px;
     gap: 8px;
-    border-bottom: 1px solid white; /* #202022 */
-    background-color: #202022;
+    border-bottom: 1px solid #202022;
+    /*background-color: #202022;*/
 }
 
 .tab-button{
