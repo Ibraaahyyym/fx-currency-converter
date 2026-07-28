@@ -518,11 +518,44 @@ main{
 
 
 #stats-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: 1036px;
     height: 81px;
-    gap: 10px;
+}
+
+#conversion-stats{
+    display: flex;
+    gap: 16px;
+    width: 740px;
+    height: 81px;
+    
+}
+
+#conversion-stats .frame{
+    width: 140px;
+    height: 81px;
+    border-radius: 16px;
     background-color: #202022;
 }
+
+
+
+
+#container{
+    
+    width: 286px;
+    height: 42px;
+    background-color: #171719;
+    opacity: 1;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+
+
+
 
 #chart{
  gap: 20px;   
