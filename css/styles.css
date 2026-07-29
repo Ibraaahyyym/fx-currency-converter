@@ -635,19 +635,64 @@ main{
 
 
 #chart{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
  gap: 20px;   
+ padding: 20px;
  width: 1036px;
  height: 377px;
  border-radius: 16px;
  border: 1px solid #202022;
- background-color: #202022; /* this is just for testing  /  visibility*/
+ background-color: #171719; /* #202022 this is just for testing  /  visibility*/
  color: #171719;
 
 }
 
+#chart-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 996px;
+    height: 19px;
+    
+}
 
+#chart-header #chart-title{
+    width: 74px;
+    height: 19px;
 
+    font-family: JetBrains Mono;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
 
+}
+
+#chart-date-info{
+    display: flex;
+    justify-content: space-between;
+    width: 192px;
+    height: 14px;
+    opacity: 70%;
+    
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px; /* 11px is the actual font size according to Figma design file*/
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+#chart-container{
+
+}
 
 /* EXCHANGE CURRENCY DIV END */
 
