@@ -691,8 +691,69 @@ main{
 }
 
 #chart-container{
+    display: flex;
+    flex-direction: column;
+    width: 996px;
+    height: 298px;
+    gap: 16px;
+}
+
+
+#chart-container #container-top{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 996px;
+    height: 272px;
+    gap: 16px;
+    background-color: /*#202022*/;
+}
+
+#container-top .icon{
+    width: 994px;
+    height: 272px;
+    background-color:  #202022 /*gray*/;
+}
+
+#container-top #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 36px;
+    height: 272px;
+    background-color: #202022 /*gray*/;
+}
+
+#container .chart-y-axis-value{
+    width: 36px;
+    height: 10px;
+    color: #9D9D9D;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0px;
 
 }
+
+.vector{
+    width: 944px;
+    height: 0px;
+    border: 1.5px dash ;
+}
+
+
+
+#chart-container #container-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 994px;
+    height: 10px;
+    background-color: #202022;
+}
+
+
+
 
 /* EXCHANGE CURRENCY DIV END */
 
